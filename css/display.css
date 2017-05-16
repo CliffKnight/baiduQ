@@ -1,0 +1,73 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #3476C5;
+}
+
+.header a {
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    padding-right: 30px;
+}
+.display-compile{
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.display-compile table thead{
+	background-color: #eee;
+}
+.display-compile thead td{
+	text-align: center;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.display-compile tr .title{
+	position: relative;
+}
+.display-compile tr .title input{
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	margin-top: -7.7px;
+}
+.display-compile tr .title span{
+
+}
+.display-compile tr td{
+	text-align: center;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.display-compile tr td a{
+	font-size: 12px;
+	line-height: 16px;
+	display: block;
+	margin-bottom: 5px;
+}
+.display-compile .control{
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	padding-left: 10px;
+}
+.display-compile .selectAll{
+	margin-right: 10px;
+}
+.display-compile .delete{
+	width: 50px;
+	height: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 5px;
+	margin-top: 9px;
+}
+.display-compile .delete:hover{
+	background-color: #eee;
+}
